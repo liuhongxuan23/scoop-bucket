@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open With Notepad3]
+"Icon"="$notepad3,0"
+
+[HKEY_CLASSES_ROOT\*\shell\Open With Notepad3\command]
+@="\"$notepad3\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe]
+"Debugger"="\"$notepad3\" /z"
